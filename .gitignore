@@ -11,6 +11,9 @@
 # production
 /build
 
+# markup
+/karma
+
 # misc
 .DS_Store
 .env.local
