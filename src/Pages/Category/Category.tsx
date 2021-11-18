@@ -1,19 +1,12 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import RelatedProducts from "../Home/RelatedProducts/";
-import CategoryContent from "./CategoryContent";
-import CategorySidebar from "./CategorySidebar";
+import CategoryPageTop from "./CategoryPageTop";
 
 const Category: React.FC = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <CategorySidebar />
-          <CategoryContent />
-        </Row>
-      </Container>
-
+      <CategoryPageTop />
       <RelatedProducts />
     </>
   );

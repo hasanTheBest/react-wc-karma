@@ -2,13 +2,15 @@ import React from "react";
 import { Container, Nav, NavItem, NavLink } from "react-bootstrap";
 import ProductDescriptionNavContent from "./ProductDescriptionNavContent";
 import ProductDescriptionNavTabs from "./ProductDescriptionNavTabs";
+import ProductDetailTabs from "./ProductDetailTabs";
 
 const ProductDescription: React.FC = () => {
   return (
     <section className="product_description_area">
       <Container>
-        <ProductDescriptionNavTabs />
-        <ProductDescriptionNavContent />
+        <ProductDetailTabs />
+        {/* <ProductDescriptionNavTabs /> */}
+        {/* <ProductDescriptionNavContent /> */}
         {/* <div className="tab-content" id="myTabContent">
           <div
             className="tab-pane fade"
